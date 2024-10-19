@@ -27,4 +27,5 @@ while menu=="1" or menu=="2" or menu=="3":
                     arq.write(os.linesep)
                 ftp.retrlines('RETR ' + input("Arquivo de origem:"), escreverLinha)
         print("Arquivo baixado com sucesso!")
+
 ftp.quit()
